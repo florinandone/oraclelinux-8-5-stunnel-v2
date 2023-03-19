@@ -1,6 +1,6 @@
 FROM oraclelinux:8.5
 
-#RUN yum -y update
+RUN yum -y update
 RUN yum -y install stunnel 
 RUN yum -y install openldap-clients
 EXPOSE 1636
