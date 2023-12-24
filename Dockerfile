@@ -7,4 +7,4 @@ EXPOSE 1636
 
 VOLUME /etc/stunnel
 WORKDIR /etc/stunnel
-CMD [ "/bin/bash", "-c","chmod 600 /etc/stunnel/stunnel.key;/usr/bin/stunnel;tail -f /var/log/hawkey.log"]
+CMD [ "/bin/bash", "-c","chmod 600 /etc/stunnel/stunnel.key;/usr/bin/stunnel;tail -f dev/null"]
